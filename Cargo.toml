@@ -1,0 +1,14 @@
+[package]
+name = "first"
+version = "0.1.0"
+authors = ["artie"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies.cursive]
+#default-features = false
+cursive = { git = "https://github.com/gyscos/cursive" }
+features = ["crossterm-backend"]#https://github.com/gyscos/cursive/wiki/Backends
+crossterm = "0.17.7"
+
+[dependencies]
