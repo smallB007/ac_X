@@ -1,0 +1,2 @@
+//execute this in terminal if you during attach get permission denied
+echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
