@@ -12,6 +12,8 @@ features = ["crossterm-backend"]#https://github.com/gyscos/cursive/wiki/Backends
 crossterm = "0.17.7"
 
 [dependencies]
+cursive_table_view = {git = "https://github.com/BonsaiDen/cursive_table_view"}
+chrono = "^0"
 
 [profile.release]
 panic = 'abort'#https://doc.rust-lang.org/book/ch09-01-unrecoverable-errors-with-panic.html
