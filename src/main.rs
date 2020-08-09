@@ -160,7 +160,7 @@ fn main() {
         panel_left.set_on_submit(Enter_Fn);
 
         horizontalLayout_MainPanels.add_child(
-            ResizedView::with_full_screen(Dialog::around(panel_left).with_name("a 0")),
+            ResizedView::with_full_screen(Dialog::around(panel_left.with_name("a 0"))),
         );
     }
     let mut horizontal_layout_functions = LinearLayout::new(Orientation::Horizontal);
